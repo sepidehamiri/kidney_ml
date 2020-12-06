@@ -1,1 +1,8 @@
-# kidney_ml
+# Radiomics analysis on CT images for prediction of radiation-induced kidney damage by machine learning models 
+Introduction: We aimed to assess the power of radiomic features based on computed tomography for predicting radiation-induced chronic kidney disease in patients with radiation therapy of abdominal cancers.
+
+Methods: chronic kidney disease classified based on the estimated glomerular filtration rate according to the Common Terminology Criteria for Adverse Events scoring system. The assessment of organ function was performed 12 months after radiation therapy. In addition to estimated glomerular filtration rate, blood and urine analyses conducted in 50 patients. Radiomic features were extracted from computed tomography images of kidneys to build a radiomic signature. Six popular algorithms including Bernoulli Naive Bayes, Decision Tree, Gradient Boosting Decision Trees, K-Nearest Neighbor, Random Forest, and Support Vector Machine were used for machine learning modeling. Evaluation criteria were as follows: accuracy, sensitivity, specificity, and area under the ROC curve.
+
+Results: 58% of patients experienced chronic kidney disease (glomerular filtration rate ≤ 30-59ml / min / 1.73m2 or less). 140 radiomic features were extracted from the segmented area. The Random Forest algorithm has identified 11 effective features among radiomics and characteristics features and reached 92% accuracy and 99% ROC curve.
+
+Conclusion: Based on the quantitative results, we have shown that radiomic features of the kidney region could predict radiation toxicities. Additional variables such as biochemical blood tests, urineary electrolytes and dosimetry data will lead to a better prediction model of radiation therapy-induced kidney damage.
